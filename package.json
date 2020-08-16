@@ -1,0 +1,23 @@
+{
+  "name": "kinghost2020-universal-apps",
+  "description": "Demonstração de Universal App (SPA + SSR) com Vue e Nuxt para o Conexão KingHost 2020",
+  "author": "Erick Eduardo Petrucelli <erick.petrucelli@fatectq.edu.br>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "build": "nuxt build",
+    "deploy": "gcloud app deploy app.yaml --project kinghost2020-universal-apps"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.1",
+    "cross-env": "^5.2.1",
+    "express": "^4.17.1",
+    "nuxt": "^2.14.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "nodemon": "^2.0.4"
+  }
+}
