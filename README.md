@@ -3,7 +3,7 @@
 
 > Demonstração de Universal App (SPA + SSR) com Vue.js e Nuxt.js, criada como material de apoio para _talk_ na trilha [Desenvolvimento Web](https://www.conexaokinghost.com.br/category/desenvolvimento/) da [10ª Edição do Conexão KingHost](https://www.conexaokinghost.com.br/).
 
-Antes de prosseguir, se quiser, também pode baixar os [slides em PPSX](./static/talk.ppsx) utilizados durante a _talk_, para revisar as explicações teóricas.
+Antes de prosseguir e se aprofundar direto no código, caso desejado, também é possível baixar os [slides em PPSX](./static/talk.ppsx) utilizados durante a _talk_, para revisar as explicações teóricas.
 
 ### Instruções
 
@@ -17,11 +17,6 @@ $ npm run dev
 # construir para produção e iniciar servidor
 $ npm run build
 $ npm start
-
-# construir, publicar e executar no Google Cloud
-$ npm run build
-$ npm run deploy
-$ gcloud app browse
 ```
 
 Para explicações detalhadas sobre como as coisas funcionam, dê uma olhada na [documentação do Nuxt.js](https://nuxtjs.org).
